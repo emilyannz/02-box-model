@@ -6,12 +6,37 @@
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
-.top-logo{
-display: block;
-float: left;
-  background: green
-{
+.column{
+  width: calc(100% / 3);
+  float: left;
+  background: #3d9d48;
+  padding: inherit;
+  border: .1rem solid black
+}
+.cat{
+width: calc(50%)
+}
+
+.avatar{
+float: right;
+margin: 0;
+}
+
+.imagecap{
+  margin-top: auto;
+  margin-bottom: .5rem;
+  background: yellow;
+  overflow: auto;
+}
+
+.align{
+  display: inline;
+}
+
+.inline{
+  display: inline;
+}
