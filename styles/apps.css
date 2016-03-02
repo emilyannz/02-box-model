@@ -12,7 +12,7 @@ body {
 
 .column{
   width: calc(100% / 3);
-  background: #3d9d48;
+  background: white;
   float: left;
   padding: inherit;
   border: .1rem solid grey;
@@ -27,13 +27,12 @@ float: right;
 margin-right: .5rem;
 margin-left: .5rem;
 vertical-align
-width: calc(25%);
 }
 
 .imagecap{
   margin-top: auto;
   margin-bottom: .5rem;
-  background: yellow;
+  background: white;
   overflow: auto;
   border: .1rem solid grey
 }
