@@ -12,19 +12,22 @@ body {
 
 .column{
   width: calc(100% / 3);
-  float: left;
   background: #3d9d48;
+  float: left;
   padding: inherit;
-  border: .1rem solid black
+  border: .1rem solid grey;
 }
 .cat{
 width: calc(50%);
+display: inline;
 }
 
 .avatar{
 float: right;
-margin: 0;
-vertical-align:
+margin-right: .5rem;
+margin-left: .5rem;
+vertical-align
+width: calc(25%);
 }
 
 .imagecap{
@@ -32,6 +35,7 @@ vertical-align:
   margin-bottom: .5rem;
   background: yellow;
   overflow: auto;
+  border: .1rem solid grey
 }
 
 .align{
@@ -41,7 +45,7 @@ vertical-align:
 }
 
 .inline{
-  display: inline;
+  display:inline;
   float: right;
 }
 
