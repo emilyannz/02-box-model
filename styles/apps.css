@@ -18,12 +18,13 @@ body {
   border: .1rem solid black
 }
 .cat{
-width: calc(50%)
+width: calc(50%);
 }
 
 .avatar{
 float: right;
 margin: 0;
+vertical-align:
 }
 
 .imagecap{
@@ -35,8 +36,15 @@ margin: 0;
 
 .align{
   display: inline;
+  float: left;
+  color: grey;
 }
 
 .inline{
   display: inline;
+  float: right;
+}
+
+p{
+font-family: sans-serif;
 }
