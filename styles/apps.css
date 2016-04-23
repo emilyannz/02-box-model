@@ -26,25 +26,21 @@ body {
   margin-top: 3rem;
 }
 
-.column {
+.col-1 {
 flex-basis: calc(100% / 3);
-min-width: 15rem;
-flex-grow: 1;
+display: inline-block;
+padding: 0.6rem;
+font-weight: bold;
+font-family: sans-serif;
 }
 
-.column:first-of-type {
-  flex-grow: 2;
-}
-
-.cartoon {
-}
 
 .cartoon_pic {
   width: 100%;
   border: 1px grey solid;
 }
 
-.cartoon_cap {
+.cartoon_details {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,8 +50,17 @@ flex-grow: 1;
   border-bottom: 2px grey solid;
 }
 
-.cartoon_number {
-  font-family: sans-serif;
+.cartoon-number {
+  float: left;
+  margin: 0;
+  line-height: 1.5em;
+  color: grey;
+}
+
+.cartoon_credits {
+  float: right;
+  margin: 0;
+  padding-bottom: .5em;
   color: grey;
 }
 
