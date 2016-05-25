@@ -1,5 +1,5 @@
-body{
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
 
 *::before, *::after {
@@ -10,44 +10,40 @@ body {
   margin:0;
 }
 
-.container1 {
+.container {
+  display: flex;
   max-width: 95%;
   margin: auto;
-  outline-style: solid;
-  outline-width: thin;
-  outline-color: grey;
+  margin: 2rem;
 }
 
 .row {
-  display: flex;
-  flex-wrap; wrap;
-  max-width: 100%;
-  align-items: stretch;
-  margin-top: 3rem;
+  overflow: auto;
+  margin: auto;
 }
 
 .col-1 {
-flex-basis: calc(100% / 3);
-display: inline-block;
-padding: 0.6rem;
-font-weight: bold;
-font-family: sans-serif;
+  max-width: 33%;
+  display: inline-block;
+  padding: .5em;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 
-.cartoon_pic {
+.cartoon-pic {
   width: 100%;
-  border: 1px grey solid;
+  border: 1px lightgrey solid;
 }
 
-.cartoon_details {
+.cartoon-caption {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: sans-serif;
   margin-left: 10px;
   margin-right: 10px;
-  border-bottom: 2px grey solid;
+  border-bottom: 2px lightgrey solid;
 }
 
 .cartoon-number {
@@ -57,14 +53,14 @@ font-family: sans-serif;
   color: grey;
 }
 
-.cartoon_credits {
+.cartoon-ifo {
   float: right;
   margin: 0;
   padding-bottom: .5em;
   color: grey;
 }
 
-.cartoon_avatar {
+.cartoon-avatar {
   height: 2rem;
   vertical-align: middle;
 }
