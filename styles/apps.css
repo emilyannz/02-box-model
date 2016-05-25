@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+.container {
+  display: flex;
+  max-width: 95%;
+  margin: auto;
+  margin: 2rem;
+}
+
+.row {
+  overflow: auto;
+  margin: auto;
+}
+
+.col-1 {
+  max-width: 33%;
+  display: inline-block;
+  padding: .5em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.cartoon-pic {
+  width: 100%;
+  border: 1px lightgrey solid;
+}
+
+.cartoon-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 2px lightgrey solid;
+}
+
+.cartoon-number {
+  float: left;
+  margin: 0;
+  line-height: 1.5em;
+  color: grey;
+}
+
+.cartoon-ifo {
+  float: right;
+  margin: 0;
+  padding-bottom: .5em;
+  color: grey;
+}
+
+.cartoon-avatar {
+  height: 2rem;
+  vertical-align: middle;
+}
